@@ -6,7 +6,8 @@ import Posts from "../posts";
 // import Contact from "../contact";
 import Greeting from "../greeting";
 
-const Homepage = ({ languages, socials, tools, posts }) => {
+// const Homepage = ({ languages, socials, tools, posts }) => {
+const Homepage = ({ socials, posts }) => {
   return (
     <React.Fragment>
       <section className="s1">
@@ -15,16 +16,20 @@ const Homepage = ({ languages, socials, tools, posts }) => {
           <Intro />
         </div>
       </section>
+
       <section className="s2">
         <div className="main-container">
-          <About socials={socials} languages={languages} tools={tools} />
+          <About socials={socials} />
+          {/* <About socials={socials} languages={languages} tools={tools} /> */}
         </div>
       </section>
+
       <section className="s1">
         <div className="main-container">
           <Posts posts={posts} />
         </div>
       </section>
+
       <section className="s2">
         <div className="main-container">
           <Greeting />

@@ -1,56 +1,55 @@
 import React from "react";
 import "./style.css";
 
-const About = ({ languages, socials, tools }) => {
+// const About = ({ languages, socials, tools }) => {
+const About = ({ socials }) => {
   return (
     <div className="about-wrapper">
       <div className="about-left">
         <div className="about-left-top">
-          <h4>More about me</h4>
-          <p>
+          <h4>More about RaQyah</h4>
+          {/* <p>
             <span role="img" aria-label="from">
               🌏
             </span>{" "}
             From: Elmahala-Elkoubra city , Gharbia , Egypt
-          </p>
+          </p> */}
           <p>
             <span role="img" aria-label="live">
               🌏
             </span>{" "}
-            Lives: Riyad city , Saudi Arabia
+            Location: Riyad city , Saudi Arabia
           </p>
           <p>
             <span role="img" aria-label="email">
               📨
             </span>{" "}
-            Email: a.elbarbary47@gmail.com
+            Email: info@raqyahsteel.com
           </p>
-          <p>
+          {/* <p>
             <span role="img" aria-label="languages">
               🎓
             </span>{" "}
             Languages: Arabic, English , Franch
-          </p>
-          <p>
+          </p> */}
+          {/* <p>
             <span role="img" aria-label="education">
               📕
             </span>{" "}
             Education: BSc degree in Social Service , Faculty of Social Service,
             Mansoura University
-          </p>
+          </p> */}
           <p>
             <span role="img" aria-label="experience">
               📕
             </span>{" "}
-            Experience: Specializes in Social Service , and Have a experience in
-            lifecycle of (Metal Deccoration) , and have my private business
-            (Raqyah Steel)
+            Experience: We Have in experience lifecycle of (Metal Deccoration)
           </p>
           <hr />
         </div>
 
         <div className="about-left-bot">
-          <h3>Find me on social media </h3>
+          <h3>Find RaQyah on social media </h3>
           <div className="about-left-bot__socials-icons">
             {socials.map((social) => {
               return (
@@ -73,10 +72,11 @@ const About = ({ languages, socials, tools }) => {
         </div>
       </div>
 
-      <div className="about-right">
+      {/* <div className="about-right">
         <h4>Top Expertise</h4>
         <p>
-          Business Man with primary focus on Metal Decoration:{" "}
+          interested in Metal Decoration, We have experience in lifecycle of
+          Metal Deccoration:{" "}
           <a target="__blank" rel="noopener noreferrer" href="/resume.pdf">
             Download Résumé
           </a>{" "}
@@ -111,7 +111,7 @@ const About = ({ languages, socials, tools }) => {
             })}
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

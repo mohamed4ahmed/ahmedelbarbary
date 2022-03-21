@@ -59,14 +59,14 @@ const Information = () => {
 
             <div className="information">
               <img src={avatar} alt="avatar" />
-              <h2>Ahmed Abdelkader ElBarbary </h2>
+              <h2>RaQyah Steel Profile</h2>
 
               <div className="social">
                 <Link to="/portfolio">
                   <div className="icon">
                     <img src={avatarIcon} alt="website" />
                   </div>
-                  <p>Portfolio</p>
+                  <p>Profile</p>
                   <div className=""></div>
                 </Link>
               </div>
@@ -92,7 +92,7 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="mailto:a.elbarbary47@gmail.com"
+                  href="mailto:info@raqyahsteel.com"
                 >
                   <div className="icon">
                     <img
@@ -105,7 +105,7 @@ const Information = () => {
                 </a>
               </div>
 
-              <div className="social">
+              {/* <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
@@ -124,25 +124,25 @@ const Information = () => {
                   <p>Phone Number EGY</p>
                   <div className=""></div>
                 </a>
-              </div>
+              </div> */}
 
               <div className="social">
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="tel:+966540600567"
+                  href="tel:+00966540600567"
                 >
                   <div className="icon">
-                    <img
+                    {/* <img
                       src="https://img.icons8.com/color/48/000000/saudi-arabia.png"
-                      alt="phoneksa"
-                    />
+                      alt="phone"
+                    /> */}
                     <img
                       src="https://img.icons8.com/clouds/100/000000/apple-phone.png"
-                      alt="phonenum"
+                      alt="phone"
                     />
                   </div>
-                  <p>Phone Number KSA</p>
+                  <p>Phone</p>
                   <div className=""></div>
                 </a>
               </div>
@@ -151,7 +151,7 @@ const Information = () => {
                 <a
                   rel="noopener noreferrer"
                   target="__blank"
-                  href="https://www.twitter.com"
+                  href="https://twitter.com/RaqyahSteel"
                 >
                   <div className="icon">
                     <img
@@ -182,11 +182,11 @@ const Information = () => {
                 </a>
               </div>
 
-              <div className="social">
+              {/* <div className="social">
                 <a
                   rel="noreferrer"
                   target="__blank"
-                  href="https://www.facebook.com/messages/t/1669933166642974"
+                  href="https://m.facebook.com/messages/t/1669933166642974"
                   aria-label="Facebook"
                 >
                   <div className="icon">
@@ -198,7 +198,7 @@ const Information = () => {
                   <p>Messenger</p>
                   <div className=""></div>
                 </a>
-              </div>
+              </div> */}
 
               <div className="social">
                 <a
@@ -219,10 +219,23 @@ const Information = () => {
 
               <div className="social">
                 <a
-                  // rel="noopener noreferrer"
-                  // target="__blank"
-                  href="whatsapp://send?text=Welcome-I-happy-to-send-your-message&phone=+0536606915"
+                  rel="noopener noreferrer"
+                  target="__blank"
+                  href="https://www.youtube.com/channel/UChR4Tz66XrOJof11e6xGuJA"
                 >
+                  <div className="icon">
+                    <img
+                      src="https://img.icons8.com/clouds/100/000000/youtube-new--v3.png"
+                      alt="youtube"
+                    />
+                  </div>
+                  <p>youtube</p>
+                  <div className=""></div>
+                </a>
+              </div>
+
+              <div className="social">
+                <a href="whatsapp://send?text=RaQyah-Steel&phone=+00966540600567">
                   <div className="icon">
                     <img
                       src="https://img.icons8.com/clouds/100/000000/whatsapp.png"
