@@ -1,6 +1,6 @@
 {
-  "short_name": "Ahmed AbdElKader React Web Application",
-  "name": "Welcome In My Profile",
+  "short_name": "RaQyah Steel Profile",
+  "name": "RaQyah Steel Profile React Web Application",
   "icons": [
     {
       "src": "favicon.ico",
@@ -13,7 +13,7 @@
       "sizes": "192x192"
     },
     {
-      "src": "logolely.png",
+      "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

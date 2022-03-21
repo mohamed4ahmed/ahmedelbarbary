@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/ahmedelbarbary/static/css/main.fd0ce550.css",
-    "main.js": "/ahmedelbarbary/static/js/main.b91fca61.js",
+    "main.js": "/ahmedelbarbary/static/js/main.f60ddddc.js",
     "static/js/787.0a2253c5.chunk.js": "/ahmedelbarbary/static/js/787.0a2253c5.chunk.js",
-    "static/media/full-nguoi-edit.webp": "/ahmedelbarbary/static/media/full-nguoi-edit.6654823925cde250b7bb.webp",
-    "static/media/chan-dung-edit.png": "/ahmedelbarbary/static/media/chan-dung-edit.66b5a0455c0ae59f3a55.png",
+    "static/media/avatar.webp": "/ahmedelbarbary/static/media/avatar.dc6c8a1f6e04683b09e6.webp",
     "static/media/weatherAppImage.jpg": "/ahmedelbarbary/static/media/weatherAppImage.a151e6db035aaf195cc7.jpg",
     "static/media/todosImage.jpg": "/ahmedelbarbary/static/media/todosImage.e97e196c887199e53e36.jpg",
     "static/media/todoappImage.jpg": "/ahmedelbarbary/static/media/todoappImage.141c34ac8c05ac06d2f2.jpg",
+    "static/media/full-nguoi-edit.webp": "/ahmedelbarbary/static/media/full-nguoi-edit.2293cdf7090eca6a8938.webp",
     "static/media/smartBeamImage.jpg": "/ahmedelbarbary/static/media/smartBeamImage.42f032771fd14420b0f1.jpg",
     "static/media/safkaImage.jpg": "/ahmedelbarbary/static/media/safkaImage.77d961b17c6a0119e3ca.jpg",
-    "static/media/avatar.webp": "/ahmedelbarbary/static/media/avatar.bf4b2b0c7532f2b1285c.webp",
+    "static/media/chan-dung-edit.png": "/ahmedelbarbary/static/media/chan-dung-edit.bc665648a5c667bcb918.png",
     "static/media/TempsImage.jpg": "/ahmedelbarbary/static/media/TempsImage.694ef9888c0872b0ed9d.jpg",
     "static/media/recipeImage.jpg": "/ahmedelbarbary/static/media/recipeImage.f7648b13501c84c00e94.jpg",
     "static/media/movieImage.jpg": "/ahmedelbarbary/static/media/movieImage.68d8f92cec988f178e86.jpg",
@@ -18,17 +18,17 @@
     "static/media/crochetArtImage.jpg": "/ahmedelbarbary/static/media/crochetArtImage.cf60a25a46a123d06231.jpg",
     "static/media/cowenterImage.jpg": "/ahmedelbarbary/static/media/cowenterImage.e7a17f623500ae899a1d.jpg",
     "static/media/no-image.jpg": "/ahmedelbarbary/static/media/no-image.d09e503817275d6b9eb4.jpg",
-    "index.html": "/ahmedelbarbary/index.html",
     "static/media/slick.svg": "/ahmedelbarbary/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ahmedelbarbary/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ahmedelbarbary/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "index.html": "/ahmedelbarbary/index.html",
     "static/media/slick.woff": "/ahmedelbarbary/static/media/slick.295183786cd8a1389865.woff",
     "main.fd0ce550.css.map": "/ahmedelbarbary/static/css/main.fd0ce550.css.map",
-    "main.b91fca61.js.map": "/ahmedelbarbary/static/js/main.b91fca61.js.map",
+    "main.f60ddddc.js.map": "/ahmedelbarbary/static/js/main.f60ddddc.js.map",
     "787.0a2253c5.chunk.js.map": "/ahmedelbarbary/static/js/787.0a2253c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fd0ce550.css",
-    "static/js/main.b91fca61.js"
+    "static/js/main.f60ddddc.js"
   ]
 }
