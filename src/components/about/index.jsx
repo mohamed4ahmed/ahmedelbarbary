@@ -43,7 +43,7 @@ const About = ({ socials }) => {
             <span role="img" aria-label="experience">
               📕
             </span>{" "}
-            Experience: We Have in experience lifecycle of (Metal Deccoration)
+            Experience: We Have experience in lifecycle of (Metal Deccoration)
           </p>
           <hr />
         </div>
@@ -74,7 +74,7 @@ const About = ({ socials }) => {
 
       {/* <div className="about-right">
         <h4>Top Expertise</h4>
-        <p>
+        <p> 
           interested in Metal Decoration, We have experience in lifecycle of
           Metal Deccoration:{" "}
           <a target="__blank" rel="noopener noreferrer" href="/resume.pdf">

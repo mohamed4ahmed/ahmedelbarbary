@@ -225,7 +225,7 @@ const Information = () => {
                 >
                   <div className="icon">
                     <img
-                      src="https://img.icons8.com/clouds/100/000000/youtube-new--v3.png"
+                      src="https://img.icons8.com/clouds/100/000000/youtube.png"
                       alt="youtube"
                     />
                   </div>
@@ -235,7 +235,7 @@ const Information = () => {
               </div>
 
               <div className="social">
-                <a href="whatsapp://send?text=RaQyah-Steel&phone=+00966540600567">
+                <a href="whatsapp://send?text=RaQyah-Steel&phone=+966540600567">
                   <div className="icon">
                     <img
                       src="https://img.icons8.com/clouds/100/000000/whatsapp.png"

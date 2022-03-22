@@ -18,137 +18,126 @@ import todosImage from "../../assets/img/todosImage.jpg";
 import Spinner from "../../components/Spinner";
 import { FaArrowCircleUp } from "react-icons/fa";
 
-const getLanguagesIcons = () => {
-  var json = {
-    icons: [
-      {
-        id: 1,
-        alt: "HTML5",
-        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
-      },
-      {
-        id: 2,
-        alt: "CSS3",
-        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
-      },
-      {
-        id: 3,
-        alt: "JavaScript",
-        src: "https://img.icons8.com/dusk/64/000000/javascript-logo.png",
-      },
-      {
-        id: 4,
-        alt: "React",
-        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
-      },
-      {
-        id: 5,
-        alt: "Redux",
-        src: "https://img.icons8.com/color/48/000000/redux.png",
-      },
-      {
-        id: 6,
-        alt: "NodeJS",
-        src: "https://img.icons8.com/color/48/000000/nodejs.png",
-      },
-      {
-        id: 7,
-        alt: "ExpressJS",
-        src: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png",
-      },
-      // {
-      // 	id: 8,
-      // 	alt: "Python",
-      // 	src: "https://img.icons8.com/color/48/000000/python.png",
-      // },
-      // {
-      // 	id: 9,
-      // 	alt: "SQL",
-      // 	src: "https://img.icons8.com/bubbles/50/000000/data-configuration.png",
-      // },
-      // {
-      // 	id: 10,
-      // 	alt: "MongoDB",
-      // 	src: "https://img.icons8.com/color/48/000000/mongodb.png",
-      // },
-      // {
-      // 	id: 11,
-      // 	alt: "PostgreSQL",
-      // 	src: "https://img.icons8.com/color/48/000000/postgreesql.png",
-      // },
-    ],
-  };
-  return json.icons;
-};
+// const getLanguagesIcons = () => {
+//   var json = {
+//     icons: [
+//       {
+//         id: 1,
+//         alt: "HTML5",
+//         src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png",
+//       },
+//       {
+//         id: 2,
+//         alt: "CSS3",
+//         src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png",
+//       },
+//       {
+//         id: 3,
+//         alt: "JavaScript",
+//         src: "https://img.icons8.com/dusk/64/000000/javascript-logo.png",
+//       },
+//       {
+//         id: 4,
+//         alt: "React",
+//         src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png",
+//       },
+//       {
+//         id: 5,
+//         alt: "Redux",
+//         src: "https://img.icons8.com/color/48/000000/redux.png",
+//       },
+//       {
+//         id: 6,
+//         alt: "NodeJS",
+//         src: "https://img.icons8.com/color/48/000000/nodejs.png",
+//       },
+//       {
+//         id: 7,
+//         alt: "ExpressJS",
+//         src: "https://d2eip9sf3oo6c2.cloudfront.net/tags/images/000/000/359/full/expressjslogo.png",
+//       },
+//       // {
+//       // 	id: 8,
+//       // 	alt: "Python",
+//       // 	src: "https://img.icons8.com/color/48/000000/python.png",
+//       // },
+//       // {
+//       // 	id: 9,
+//       // 	alt: "SQL",
+//       // 	src: "https://img.icons8.com/bubbles/50/000000/data-configuration.png",
+//       // },
+//       // {
+//       // 	id: 10,
+//       // 	alt: "MongoDB",
+//       // 	src: "https://img.icons8.com/color/48/000000/mongodb.png",
+//       // },
+//       // {
+//       // 	id: 11,
+//       // 	alt: "PostgreSQL",
+//       // 	src: "https://img.icons8.com/color/48/000000/postgreesql.png",
+//       // },
+//     ],
+//   };
+//   return json.icons;
+// };
 
-const getToolsIcon = () => {
-  let json = {
-    icons: [
-      {
-        id: nextId(),
-        alt: "VScode",
-        src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
-      },
-      {
-        id: nextId(),
-        alt: "Git",
-        src: "https://img.icons8.com/color/48/000000/git.png",
-      },
-      {
-        id: nextId(),
-        alt: "Github",
-        src: "https://img.icons8.com/nolan/64/github.png",
-      },
-      {
-        id: nextId(),
-        alt: "Terminal",
-        src: "https://img.icons8.com/fluent/48/000000/console.png",
-      },
-      {
-        id: nextId(),
-        alt: "Katalon",
-        src: "https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2019/10/22154517/katalon_icon_color_normal.png",
-      },
-      {
-        id: nextId(),
-        alt: "Photoshop",
-        src: "https://img.icons8.com/fluent/50/000000/adobe-photoshop.png",
-      },
-      {
-        id: nextId(),
-        alt: "Premiere",
-        src: "https://img.icons8.com/color/48/000000/adobe-premiere-pro.png",
-      },
-      {
-        id: nextId(),
-        alt: "Trello",
-        src: "https://img.icons8.com/color/48/000000/trello.png",
-      },
-      {
-        id: nextId(),
-        alt: "Slack",
-        src: "https://img.icons8.com/color/48/000000/slack-new.png",
-      },
-    ],
-  };
-  return json.icons;
-};
+// const getToolsIcon = () => {
+//   let json = {
+//     icons: [
+//       {
+//         id: nextId(),
+//         alt: "VScode",
+//         src: "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/visual-studio-code/visual-studio-code.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Git",
+//         src: "https://img.icons8.com/color/48/000000/git.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Github",
+//         src: "https://img.icons8.com/nolan/64/github.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Terminal",
+//         src: "https://img.icons8.com/fluent/48/000000/console.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Katalon",
+//         src: "https://d1h3p5fzmizjvp.cloudfront.net/wp-content/uploads/2019/10/22154517/katalon_icon_color_normal.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Photoshop",
+//         src: "https://img.icons8.com/fluent/50/000000/adobe-photoshop.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Premiere",
+//         src: "https://img.icons8.com/color/48/000000/adobe-premiere-pro.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Trello",
+//         src: "https://img.icons8.com/color/48/000000/trello.png",
+//       },
+//       {
+//         id: nextId(),
+//         alt: "Slack",
+//         src: "https://img.icons8.com/color/48/000000/slack-new.png",
+//       },
+//     ],
+//   };
+//   return json.icons;
+// };
 
 const getSocialsIcon = () => {
   let json = {
     socials: [
-      // {
-      //   id: nextId(),
-      //   alt: "linkedin",
-      //   link: "https://www.linkedin.com",
-      //   src: "https://img.icons8.com/color/48/000000/linkedin-circled.png",
-      // },
-      // {
-      //   id: nextId(),
-      //   alt: "github",
-      //   link: "https://github.com/mohamed4ahmed",
-      //   src: "https://img.icons8.com/fluent/48/000000/github.png",
-      // },
+      
       {
         id: nextId(),
         alt: "Facebook",
@@ -160,6 +149,18 @@ const getSocialsIcon = () => {
         alt: "Instagram",
         link: "https://www.instagram.com/aitco_4_decor/",
         src: "https://img.icons8.com/clouds/100/000000/instagram-new--v3.png",
+      }, 
+      {
+        id: nextId(),
+        alt: "youtube",
+        link: "https://www.youtube.com/channel/UChR4Tz66XrOJof11e6xGuJA",
+        src: "https://img.icons8.com/clouds/100/000000/youtube.png",
+      },
+      {
+        id: nextId(),
+        alt: "haraj",
+        link: "https://haraj.com.sa/users/ahmed%20elbrbry",
+        src: "https://i0.wp.com/www.ibtdi.com/wp-content/uploads/2015/07/58wG22zJ-1.png?fit=1024%2C1024&ssl=1",
       },
     ],
   };
@@ -282,8 +283,8 @@ const HomePage = () => {
   const [spinner, setSpinner] = useState(true);
 
   const socials = getSocialsIcon();
-  const languages = getLanguagesIcons();
-  const tools = getToolsIcon();
+  // const languages = getLanguagesIcons();
+  // const tools = getToolsIcon();
   const posts = getPosts();
 
   const toggleVisible = () => {
@@ -325,8 +326,8 @@ const HomePage = () => {
 
           <HomePageComponent
             socials={socials}
-            languages={languages}
-            tools={tools}
+            // languages={languages}
+            // tools={tools}
             posts={posts}
           />
         </>

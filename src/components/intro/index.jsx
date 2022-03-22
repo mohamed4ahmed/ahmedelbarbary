@@ -30,7 +30,8 @@ const Greeting = () => {
             <div className="corner corner-tr"></div>
             <h3>What RaQyah Do?</h3>
             <p style={{ fontSize: "16px" }}>
-              We have experience in lifecycle of (Metal Deccoration).
+              RaQyah is Company For (Metal Deccoration) and have a big
+              experience in this filed.
             </p>
             {/* <img className="avatar" src={Avatar} alt="Avatar" />
             <img className="avatar" src={Avatar1} alt="Avatar1" /> */}
