@@ -18,7 +18,7 @@ const Post = ({ id, imgSrc, imgAlt, title, description, link }) => {
           <h6 className="post__title">{title}</h6>
           <p className="post__description">{description}</p>
           <a href={link} target="__blank" rel="noopener noreferrer">
-            See Project
+            See On Instagram
           </a>
         </div>
       </div>

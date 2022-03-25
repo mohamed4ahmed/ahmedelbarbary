@@ -2,19 +2,19 @@ import React, { useEffect, useState } from "react";
 import HomePageComponent from "../../components/homepage";
 import nextId from "react-id-generator";
 import "../information/styles.css";
-import noImage from "../../assets/img/no-image.jpg";
-import troyCoffeImage from "../../assets/img/troyCoffeImage.jpg";
-import smartBeamImage from "../../assets/img/smartBeamImage.jpg";
-import safkaImage from "../../assets/img/safkaImage.jpg";
-import recipeImage from "../../assets/img/recipeImage.jpg";
-import movieImage from "../../assets/img/movieImage.jpg";
-import todoappImage from "../../assets/img/todoappImage.jpg";
-import crochetArtImage from "../../assets/img/crochetArtImage.jpg";
-import weatherAppImage from "../../assets/img/weatherAppImage.jpg";
+import tsamemleaserImage from "../../assets/img/tsamemleaserImage.jpg";
+import tawlat from "../../assets/img/tawlat.jpg";
+import waghatalamonyomImage from "../../assets/img/waghatalamonyomImage.jpg";
+import drabzenImage from "../../assets/img/drabzenImage.jpg";
+import elyabeshospitalImage from "../../assets/img/elyabeshospitalImage.jpg";
+import waghahadedImage from "../../assets/img/waghahadedImage.jpg";
+import waghatsoaorImage from "../../assets/img/waghatsoaorImage.jpg";
+import stanlssteelImage from "../../assets/img/stanlssteelImage.jpg";
+import hadedasleazerImage from "../../assets/img/hadedasleazerImage.jpg";
 // import quizAppImage from "../../assets/img/quizAppImage.jpg";
-import TempsAppImage from "../../assets/img/TempsImage.jpg";
-import cowenterImage from "../../assets/img/cowenterImage.jpg";
-import todosImage from "../../assets/img/todosImage.jpg";
+import amalfrabkshenImage from "../../assets/img/amalfrabkshenImage.jpg";
+import bartechanImage from "../../assets/img/bartechanImage.jpg";
+import glassroomImage from "../../assets/img/glassroomImage.jpg";
 import Spinner from "../../components/Spinner";
 import { FaArrowCircleUp } from "react-icons/fa";
 
@@ -137,7 +137,6 @@ import { FaArrowCircleUp } from "react-icons/fa";
 const getSocialsIcon = () => {
   let json = {
     socials: [
-      
       {
         id: nextId(),
         alt: "Facebook",
@@ -149,7 +148,7 @@ const getSocialsIcon = () => {
         alt: "Instagram",
         link: "https://www.instagram.com/aitco_4_decor/",
         src: "https://img.icons8.com/clouds/100/000000/instagram-new--v3.png",
-      }, 
+      },
       {
         id: nextId(),
         alt: "youtube",
@@ -172,106 +171,108 @@ const getPosts = () => {
     posts: [
       {
         id: nextId(),
-        title: "TROY COFFE Web Application",
-        description: "React web app for my coffe.",
-        imgSrc: troyCoffeImage,
-        imgAlt: "troy-logo",
-        link: "https://www.troycoffe.cf",
-      },
-      {
-        id: nextId(),
-        title: "Smart Beam Web Application",
-        description: "React web app for Metal Decoration.",
-        imgSrc: smartBeamImage,
-        imgAlt: "smart-logo",
-        link: "https://smartbeam.tk",
-      },
-      {
-        id: nextId(),
-        title: "Safka For Clothes Web Application",
-        description: "React web app for Clothes (mens,womens,childreen)",
-        imgSrc: safkaImage,
-        imgAlt: "safka-logo",
-        link: "https://safka.ga",
-      },
-      {
-        id: nextId(),
-        title: "Recipe Web Application",
+        title: "طاولات",
         description:
-          "vanillia javascript ,css ,html app for Search for your favorite food , click like , and save it in your fav items , get back",
-        imgSrc: recipeImage,
-        imgAlt: "Recipe-logo",
-        link: "https://mohamed4ahmed.github.io/RecipeApp",
+          "لتنفيذ كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات والابواب والدرابزينات والوجهات",
+        imgSrc: tawlat,
+        imgAlt: "tawlat-logo",
+        link: "https://www.instagram.com/p/CFovvpLAvYm/",
       },
       {
         id: nextId(),
-        title: "Movie App Web Application",
+        title: "وجهات المنيوم مع زجاج",
+        description: "تركيب وجهات المنيوم مع زجاج بجنوب الرياض",
+        imgSrc: waghatalamonyomImage,
+        imgAlt: "waghatalamonyom-logo",
+        link: "https://www.instagram.com/p/CFwngX2gFQ2/",
+      },
+      {
+        id: nextId(),
+        title: "دربزينات",
         description:
-          "vanillia javascript ,css ,html app for get Rating and overview and search  for a movies",
-        imgSrc: movieImage,
-        imgAlt: "Movie-logo",
-        link: "https://mohamed4ahmed.github.io/MovieApp",
+          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        imgSrc: drabzenImage,
+        imgAlt: "drabzen-logo",
+        link: "https://www.instagram.com/p/CKOz1M0g2ae/",
       },
       {
         id: nextId(),
-        title: "تطبيق قائمة المهام",
+        title: "مستشفي اليابس بطريق مكه",
         description:
-          "React web app for Write down your daily tasks. Save and edit them or delete them, you can also cross them off as finished tasks and filter professional and uifinshed tasks.",
-        imgSrc: todoappImage,
-        imgAlt: "todoapp-logo",
-        link: "https://todoapp.ml",
+          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات",
+        imgSrc: elyabeshospitalImage,
+        imgAlt: "elyabeshospital-logo",
+        link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
       },
       {
         id: nextId(),
-        title: "Crochetart Web Application",
-        description: "React web app for Handmade crochet",
-        imgSrc: crochetArtImage,
-        imgAlt: "crochetart-logo",
-        link: "https://crochetart.cf",
-      },
-      {
-        id: nextId(),
-        title: "Weather Web Application",
+        title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
         description:
-          "vanillia javascript ,css ,html for search for your city weather degree",
-        imgSrc: weatherAppImage,
-        imgAlt: "weather-logo",
-        link: "https://mohamed4ahmed.github.io/Weather",
+          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        imgSrc: waghahadedImage,
+        imgAlt: "waghahaded-logo",
+        link: "https://www.instagram.com/p/CQMdCirh-Fi/",
       },
       {
         id: nextId(),
-        title: "QuizApp Web Application",
+        title: "وجهات كلادنج بمعرض الصقور",
         description:
-          "vanillia javascript ,css ,html for get simple quiz and get your result ",
-        imgSrc: noImage,
-        imgAlt: "QuizApp-logo",
-        link: "https://mohamed4ahmed.github.io/QuizApp",
+          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات",
+        imgSrc: waghatsoaorImage,
+        imgAlt: "waghatsoaor-logo",
+        link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
       },
       {
         id: nextId(),
-        title: "Temps Web Application",
-        description: "React web app old portfolio",
-        imgSrc: TempsAppImage,
-        imgAlt: "Temps-logo",
-        link: "https://mohamed4ahmed.github.io/Temps",
+        title: " استانلس ستيل",
+        description: "أعمال فبريكشن شغل استانلس ستيل",
+        imgSrc: stanlssteelImage,
+        imgAlt: "stanlssteel-logo",
+        link: "https://www.instagram.com/p/CMPYC87gMha/",
       },
       {
         id: nextId(),
-        title: "Cowenter Web Application",
+        title: "حديد قص ليزر",
         description:
-          "vanillia javascript ,css ,html for cowenter down event new year",
-        imgSrc: cowenterImage,
-        imgAlt: "cowenter-logo",
-        link: "https://mohamed4ahmed.github.io/Cowenter",
+          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات والابواب",
+        imgSrc: hadedasleazerImage,
+        imgAlt: "hadedasleazer-logo",
+        link: "https://www.instagram.com/p/CNO9cAHL4-D/",
       },
       {
         id: nextId(),
-        title: "Todo Web Application",
+        title: "صميمات قص ليزر",
         description:
-          "Todo List web app React web app for Write down your daily notes.",
-        imgSrc: todosImage,
-        imgAlt: "Todos-logo",
-        link: "https://mohamed4ahmed.github.io/todo",
+          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        imgSrc: tsamemleaserImage,
+        imgAlt: "tsamemleaser-logo",
+        link: "https://www.instagram.com/p/CNO9iRnr8Ry/",
+      },
+      {
+        id: nextId(),
+        title: "أعمال فبريكشن",
+        description:
+          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        imgSrc: amalfrabkshenImage,
+        imgAlt: "amalfrabkshen-logo",
+        link: "https://www.instagram.com/p/CMPslUUATKr/",
+      },
+      {
+        id: nextId(),
+        title: "بارتشن او حمايات شبابيك",
+        description:
+          "شكال مميزه تصلح لبارتشن او حمايات شبابيك او ديكورات خارجيه و اخليه 💝",
+        imgSrc: bartechanImage,
+        imgAlt: "bartechan-logo",
+        link: "https://www.instagram.com/p/CKOz9wCgBWD/",
+      },
+      {
+        id: nextId(),
+        title: "غرفه بالحديد والزجاج",
+        description: "تصميم غرفه بالحديد والزجاج بممر قصر بشمال الرياض",
+        imgSrc: glassroomImage,
+        imgAlt: "glassroom-logo",
+        link: "https://www.instagram.com/p/CNMpcx-HULD/",
       },
     ],
   };
