@@ -172,8 +172,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "طاولات",
-        description:
-          "لتنفيذ كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات والابواب والدرابزينات والوجهات",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: tawlat,
         imgAlt: "tawlat-logo",
         link: "https://www.instagram.com/p/CFovvpLAvYm/",
@@ -189,8 +189,7 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "دربزينات",
-        description:
-          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
         imgSrc: drabzenImage,
         imgAlt: "drabzen-logo",
         link: "https://www.instagram.com/p/CKOz1M0g2ae/",
@@ -198,8 +197,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "مستشفي اليابس بطريق مكه",
-        description:
-          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: elyabeshospitalImage,
         imgAlt: "elyabeshospital-logo",
         link: "https://www.instagram.com/p/CJ6hNOjrpnh/",
@@ -207,8 +206,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "وجهه حديد قص ليزر ارتفاع ٨ متر",
-        description:
-          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: waghahadedImage,
         imgAlt: "waghahaded-logo",
         link: "https://www.instagram.com/p/CQMdCirh-Fi/",
@@ -216,8 +215,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "وجهات كلادنج بمعرض الصقور",
-        description:
-          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: waghatsoaorImage,
         imgAlt: "waghatsoaor-logo",
         link: "https://www.instagram.com/p/CJ6iNpvLmFc/",
@@ -233,8 +232,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "حديد قص ليزر",
-        description:
-          "كل مايخص عالم الحديد والاستنلس ستيل والالمنيوم والزجاج والديكورات والابواب",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: hadedasleazerImage,
         imgAlt: "hadedasleazer-logo",
         link: "https://www.instagram.com/p/CNO9cAHL4-D/",
@@ -242,8 +241,8 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "صميمات قص ليزر",
-        description:
-          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        description: "أفضل سعر لجوده عالميه تناسب جميع الأذواق 🌸",
+
         imgSrc: tsamemleaserImage,
         imgAlt: "tsamemleaser-logo",
         link: "https://www.instagram.com/p/CNO9iRnr8Ry/",
@@ -251,8 +250,7 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "أعمال فبريكشن",
-        description:
-          "أفضل سعر لجوده عالميه تناسب جميع الأذواق ولعشاق الفخامه والتميز 🌸🌸",
+        description: "أفضل سعر لجوده عالميه لعشاق التميز 🌸",
         imgSrc: amalfrabkshenImage,
         imgAlt: "amalfrabkshen-logo",
         link: "https://www.instagram.com/p/CMPslUUATKr/",
@@ -260,8 +258,7 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "بارتشن او حمايات شبابيك",
-        description:
-          "شكال مميزه تصلح لبارتشن او حمايات شبابيك او ديكورات خارجيه و اخليه 💝",
+        description: "شكال مميزه تصلح لبارتشن او حمايات شبابيك 💝",
         imgSrc: bartechanImage,
         imgAlt: "bartechan-logo",
         link: "https://www.instagram.com/p/CKOz9wCgBWD/",
@@ -269,7 +266,7 @@ const getPosts = () => {
       {
         id: nextId(),
         title: "غرفه بالحديد والزجاج",
-        description: "تصميم غرفه بالحديد والزجاج بممر قصر بشمال الرياض",
+        description: "غرفه بالحديد والزجاج بشمال الرياض",
         imgSrc: glassroomImage,
         imgAlt: "glassroom-logo",
         link: "https://www.instagram.com/p/CNMpcx-HULD/",
