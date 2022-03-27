@@ -2,6 +2,7 @@ import React from "react";
 import "./style.css";
 import Intro from "../intro";
 import About from "../about";
+import Maps from "../maps";
 import Posts from "../posts";
 // import Contact from "../contact";
 import Greeting from "../greeting";
@@ -29,6 +30,8 @@ const Homepage = ({ socials, posts }) => {
           <Posts posts={posts} />
         </div>
       </section>
+
+      <Maps />
 
       <section className="s2">
         <div className="main-container">
