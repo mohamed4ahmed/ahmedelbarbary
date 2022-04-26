@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c74bc457.css",
-    "main.js": "/static/js/main.87bbf744.js",
+    "main.js": "/static/js/main.b6505c9a.js",
     "static/js/787.0a2253c5.chunk.js": "/static/js/787.0a2253c5.chunk.js",
     "static/media/tawlat.png": "/static/media/tawlat.26c58db19c30922e6bbb.png",
     "static/media/hadedasleazerImage.png": "/static/media/hadedasleazerImage.f6b20dcb0b5571f23f0e.png",
@@ -15,20 +15,20 @@
     "static/media/waghatsoaorImage.png": "/static/media/waghatsoaorImage.7d6cc5c1a93052ef8b89.png",
     "static/media/glassroomImage.png": "/static/media/glassroomImage.2d03e9899ad6cad03c95.png",
     "static/media/waghahadedImage.png": "/static/media/waghahadedImage.afbb2895194f60f9bb3c.png",
-    "static/media/avatar.webp": "/static/media/avatar.8fc2f13f761d0f0824ad.webp",
-    "static/media/chan-dung-edit.png": "/static/media/chan-dung-edit.8fc2f13f761d0f0824ad.png",
-    "static/media/full-nguoi-edit.webp": "/static/media/full-nguoi-edit.8fc2f13f761d0f0824ad.webp",
+    "static/media/full-nguoi-edit.webp": "/static/media/full-nguoi-edit.a1670b5e75465369b41a.webp",
+    "static/media/avatar.webp": "/static/media/avatar.5c9cd6c9a237a1c07999.webp",
+    "static/media/chan-dung-edit.png": "/static/media/chan-dung-edit.5c9cd6c9a237a1c07999.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.c74bc457.css.map": "/static/css/main.c74bc457.css.map",
-    "main.87bbf744.js.map": "/static/js/main.87bbf744.js.map",
+    "main.b6505c9a.js.map": "/static/js/main.b6505c9a.js.map",
     "787.0a2253c5.chunk.js.map": "/static/js/787.0a2253c5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c74bc457.css",
-    "static/js/main.87bbf744.js"
+    "static/js/main.b6505c9a.js"
   ]
 }
